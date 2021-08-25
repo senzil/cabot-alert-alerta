@@ -1,6 +1,6 @@
 
 from django.db import models
-from cabot.cabotapp.alert import AlertPlugin, AlertPluginUserData
+from cabot3.cabotapp.alert import AlertPlugin, AlertPluginUserData
 import time
 from django.template import Context, Template
 from alerta import send_msg
